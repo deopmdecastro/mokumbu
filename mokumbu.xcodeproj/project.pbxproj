@@ -94,9 +94,9 @@
 		7EED88602ABAF78C00FB5158 /* mokumbu */ = {
 			isa = PBXGroup;
 			children = (
-				7EED88612ABAF78C00FB5158 /* mokumbuApp.swift */,
-				7EED88632ABAF78C00FB5158 /* ContentView.swift */,
 				7EED88652ABAF78D00FB5158 /* Assets.xcassets */,
+				7EED88632ABAF78C00FB5158 /* ContentView.swift */,
+				7EED88612ABAF78C00FB5158 /* mokumbuApp.swift */,
 				7EED88672ABAF78D00FB5158 /* Preview Content */,
 			);
 			path = mokumbu;
@@ -424,6 +424,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"mokumbu/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "môkumbu";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -452,6 +453,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"mokumbu/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "môkumbu";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
