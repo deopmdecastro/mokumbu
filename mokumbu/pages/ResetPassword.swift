@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ResetPasswordPage: View {
+struct ResetPassword: View {
     
     // variaveis
     
@@ -29,14 +29,20 @@ struct ResetPasswordPage: View {
                 .padding()
             
                 Spacer()
-                    .frame(width: 0, height: 60)
+                    .frame(width: 0, height: 70)
 
             
                 Text("Recuperação de senha")
                 
                 
                 Spacer()
-                    .frame(width: 0, height: 300)
+                    .frame(width: 0, height: 70)
+                
+                
+                Image("key_pin")
+                
+                Spacer()
+                    .frame(width: 0, height: 70)
                         
             
             
@@ -61,7 +67,7 @@ struct ResetPasswordPage: View {
                         .font(.system(size: 20, weight: .semibold, design: .default))
                         .foregroundColor(.white)
                         .frame(width: 343, height: 53)
-                        .background (Color.purple)
+                        .background (Color("ButtonColor"))
                         .cornerRadius(50)
                     
                     Spacer()
@@ -89,5 +95,5 @@ struct ResetPasswordPage: View {
 
 
 #Preview {
-    ResetPasswordPage()
+    ResetPassword()
 }

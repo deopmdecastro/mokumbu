@@ -8,8 +8,23 @@
 import SwiftUI
 
 struct SplashScreenView: View {
+    @State private var isActive = false
+    @State private var size = 0.8
+    @State private var opacity = 0.5
+    
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        VStack{
+            VStack{
+                Image(systemName: "hare.fill")
+                    .font(.system(size: 80))
+                    .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
+                    
+            }
+        }
+
+        
     }
 }
 

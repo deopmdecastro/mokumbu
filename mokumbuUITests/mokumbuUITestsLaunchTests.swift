@@ -2,7 +2,7 @@
 //  mokumbuUITestsLaunchTests.swift
 //  mokumbuUITests
 //
-//  Created by Deogracia de Castro (WEY MEDIA) on 20/09/2023.
+//  Created by Deogracia de Castro (Brainnet) on 20/09/2023.
 //
 
 import XCTest
